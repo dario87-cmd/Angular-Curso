@@ -8,7 +8,7 @@ interface Character  {
     name: string
     hp: number,
     skill: string[],
-    hometown?:string //? con esete simbolo especificamos que es un valor no definido y asi evitamos definir el valor 
+    hometown?:string //? con esete simbolo especificamos que es un valor puede ser usado o no  
 }
 
 
